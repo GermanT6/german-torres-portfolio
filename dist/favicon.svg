@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128">
+
+  <!-- Background -->
+  <rect
+    width="128"
+    height="128"
+    rx="32"
+    fill="#020617"
+  />
+
+  <!-- Gradient -->
+  <defs>
+    <linearGradient id="grad" x1="0" y1="0" x2="128" y2="128">
+      <stop offset="0%" stop-color="#818CF8"/>
+      <stop offset="100%" stop-color="#4F46E5"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Symbol -->
+  <path
+    d="M40 64L64 40L88 64L64 88L40 64Z"
+    fill="url(#grad)"
+  />
+
+  <!-- Inner -->
+  <circle
+    cx="64"
+    cy="64"
+    r="10"
+    fill="#020617"
+  />
+
+</svg>
