@@ -1,5 +1,5 @@
 # Portfolio Personal
-
+Portfolio personal desarrollado con React y TailwindCSS.
 ## Instalar dependencias
 
 npm install
@@ -14,7 +14,7 @@ npm run build
 
 ## Tecnologías
 
-- React.
-- Vite.
-- TailwindCSS.
-- Framer Motion.
+- React
+- Vite
+- TailwindCSS
+- Framer Motion
