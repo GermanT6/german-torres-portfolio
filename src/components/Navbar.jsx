@@ -43,7 +43,7 @@ function Navbar() {
       <header className="fixed top-0 left-0 w-full z-50">
         <nav className="max-w-7xl mx-auto mt-4 px-6">
           
-          <div className="bg-white/80 dark:bg-slate-900/80 backdrop-blur-xl border border-slate-200 dark:border-slate-800 rounded-2xl px-6 py-4 flex items-center justify-between shadow-lg">
+          <div className="bg-white/60 dark:bg-slate-900/60 backdrop-blur-xl border border-slate-200 dark:border-slate-800 rounded-2xl px-6 py-4 flex items-center justify-between shadow-lg">
             
             {/* LOGO */}
             <a

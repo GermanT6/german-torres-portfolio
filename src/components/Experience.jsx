@@ -1,5 +1,6 @@
 import { motion } from "framer-motion";
 import lpfLogo from "../assets/lpf-logo.svg";
+import Reveal from "./ui/Reveal";
 
 const experiences = [
   {
@@ -32,9 +33,11 @@ function Experience() {
   return (
     <section id="experience" className="section-container">
       <div className="mb-14">
-        <h2 className="text-4xl font-bold mb-4">
-          Experiencia
-        </h2>
+        <Reveal>
+          <h2 className="text-4xl font-bold mb-4">
+            Experiencia
+          </h2>
+        </Reveal>
 
         <p className="text-slate-600 dark:text-slate-300 max-w-2xl">
           Experiencia profesional desarrollando soluciones

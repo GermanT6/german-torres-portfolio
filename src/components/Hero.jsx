@@ -120,8 +120,19 @@ function Hero() {
         {/* RIGHT SIDE */}
         <motion.div
           initial={{ opacity: 0, scale: 0.9 }}
-          animate={{ opacity: 1, scale: 1 }}
-          transition={{ duration: 0.6 }}
+          animate={{
+            opacity: 1,
+            scale: 1,
+            y: [0, -10, 0],
+          }}
+          transition={{
+            duration: 0.8,
+            y: {
+              duration: 4,
+              repeat: Infinity,
+              ease: "easeInOut",
+            },
+          }}
           className="relative flex justify-center"
         >
           

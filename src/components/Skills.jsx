@@ -1,4 +1,5 @@
 import { motion } from "framer-motion";
+import Reveal from "./ui/Reveal";
 
 const skills = {
   Backend: [
@@ -35,9 +36,11 @@ const Skills = () => {
   return (
     <section id="skills" className="section-container">
       <div className="mb-14">
-        <h2 className="text-4xl font-bold mb-4">
-          Habilidades
-        </h2>
+        <Reveal>
+          <h2 className="text-4xl font-bold mb-4">
+            Habilidades
+          </h2>
+        </Reveal>
 
         <p className="text-slate-600 dark:text-slate-300 max-w-2xl">
           Tecnologías y herramientas con las que trabajo

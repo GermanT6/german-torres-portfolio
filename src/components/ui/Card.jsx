@@ -15,9 +15,12 @@ function Card({
 }) {
   return (
     <motion.div
-      whileHover={{ y: -10 }}
+      whileHover={{
+        y: -10,
+        scale: 1.02,
+      }}
       transition={{ duration: 0.3 }}
-      className="group overflow-hidden rounded-3xl h-full flex flex-col bg-white dark:bg-slate-800 border border-slate-200 dark:border-slate-700 shadow-xl"
+      className="transition-all duration-500 hover:shadow-[0_0_40px_rgba(99,102,241,0.25)] group overflow-hidden rounded-3xl h-full flex flex-col bg-white dark:bg-slate-800 border border-slate-200 dark:border-slate-700 shadow-xl"
     >
       
       {/* IMAGE */}
