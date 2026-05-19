@@ -14,7 +14,7 @@ npm run build
 
 ## Tecnologías
 
-- React
-- Vite
-- TailwindCSS
-- Framer Motion
+- React.
+- Vite.
+- TailwindCSS.
+- Framer Motion.
